@@ -13,8 +13,13 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  margin-top: 10px;
+}
+
 h3 {
   margin: 0;
+  margin-bottom: 10px;
 }
 
 img {
@@ -26,16 +31,19 @@ img {
 }
 
 .scroll__graphic {
+  background-image: url(./img/1.jpg);
+  background-size: cover;
+  background-position: center;
   position: -webkit-sticky;
   position: sticky;
   float: right;
-  top: 20%;
-  width: 40%;
-  text-align: center;
+  top: 0;
+  height: 100vh;
+  width: 50%;
 }
 
 .scroll__text {
-  width: 60%;
+  width: 50%;
 }
 
 .step {
@@ -53,8 +61,4 @@ img {
 
 .blue {
   background-color: #4B8BB2;
-}
-
-.orange {
-  background-color: #FF8350;
 }
