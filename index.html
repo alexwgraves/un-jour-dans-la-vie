@@ -3,8 +3,176 @@
   <head>
     <meta charset="utf-8">
     <title>Un jour dans la vie</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://unpkg.com/scrollama@0.6.1/build/scrollama.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.0.3/stickyfill.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
   </head>
   <body>
-    bonjour
+    <section class="intro orange">
+      <h1>Un jour dans la vie</h1>
+      <h3>… d'un étudiant américain qui étudie à Paris</h3>
+    </section>
+
+    <section class="scroll">
+      <div class="scroll__graphic sticky">
+        <div class="photo">
+          <img src="./img/1.jpg" alt="">
+        </div>
+      </div>
+      <div class="scroll__text">
+        <div class="step light-blue" data-step="1">
+          <h2>7h30</h2>
+        </div>
+        <div class="step blue" data-step="2">
+          <h2>8h</h2>
+        </div>
+        <div class="step light-blue" data-step="3">
+          <h2>8h30</h2>
+          <p>Je vais à l’Université Pierre-et-Marie Curie, qui est une membre de Sorbonne Universités. Cette université est dans le cinquième arrondissement, donc pour y aller, j’utilise le vélib. C’est un système de vélos en libre-service, comme Indigo dans Philadelphie.</p>
+
+          <p>À Paris, les vélos sont très populaires. Paris est une très vielle ville, donc les rues sont généralement étroites, et il est souvent plus facile de faire un vélo. Les rues ont beaucoup de pistes cyclables, et les conducteurs sont généralement respectueux.</p>
+
+          <p>En particulier, j’aime le vélib’ parce qu’il est très utile et pratique. Aussi, il n’est pas cher – juste 29 euros par année ! Mes amis qui habitent loin de la fac disent que le métro est assez peu fiable, donc je suis content que je peux utiliser le vélib’.</p>
+
+          <p>Ma chose préférée de mon voyage à la fac est l’architecture. Dans le cinquième arrondissement, il y a beaucoup de grands et vieux bâtiments, et ils sont très beaux. Chaque jour, j’essaie trouver une route différente donc je peux voir les bâtiments différents.</p>
+        </div>
+        <div class="step blue" data-step="4">
+          <h2>9h</h2>
+          <p>Chaque jour, j’ai un cours à 9h. Aujourd’hui, ce cours est la conception de sites web, qui est un cours d’informatique en option. Je suis étudiant en informatique, donc j’aime que je peux prendre des cours intéressants pendant que je suis en France. Donc, j’aime le cours, mais je n’aime pas que je dois me réveiller si tôt.</p>
+
+          <p>C’est une grande différence entre le système éducatif français et le système aux États-Unis. À Penn, mes cours commencent à 11h ou même dans l’après-midi. Ici, cependant, beaucoup de cours commencent vraiment tôt – même avant 9h ! Aussi, il y a beaucoup de cours chaque jour à UPMC, et j’ai souvent environ huit heures de cours par jour ! À Penn, il est normal d’avoir seules trois heures de cours par jour.</p>
+
+          <p>Cependant, la plus grande différence ici est les devoirs – ou, plutôt, l’absence de devoirs. Ce cours est à base de projet, donc pour mon projet final, j’ai fait ce site. Mais ça est la seule tâche pour tous mes cours. Pour le reste de mes cours, j’aurai des examens finals.</p>
+
+          <p>J’aime que je n’ai pas beaucoup de devoirs, mais je suis un peu stressé pour les examens. J’ai six cours ce semestre, qui seront beaucoup d’examens – à Penn, j’ai souvent environ trois examens finals. Mais, je pense que je préfère le système français parce que, sans des devoirs, j’ai plus de temps libres.</p>
+        </div>
+        <div class="step light-blue" data-step="5">
+          <h2>12h</h2>
+          <p>À midi, j’ai mon deuxième cours. Le nom de ce cours est « Le film français ». J’aime vraiment ce cours parce que nous analysons un nouveau film chaque semaine et l’importance de ce genre du film dans la société. Et à la fin de ce cours, nous aurons un projet de réaliser un film d’un genre que nous avons appris dans le semestre et de faire une présentation du film. Jusqu’à maintenant, nous avons vu et analysé cinq films. Les films que je préfère sont <em>Le Fabuleux Destin d'Amélie Poulain</em> et <em>Samba</em>.</p>
+
+          <p><em>Amélie</em> est sorti en 2001 et est réalisé par Jean-Pierre Jeunet. Ce film est à propos d’une femme bizarre qui s’appelle Amélie. Elle est optimiste et elle dédie sa vie d’améliorer les vies de son père, les autres locataires de son appartement, ses amis, et tout le monde en général. Ce film est une comédie romantique.</p>
+
+          <p><em>Samba</em> est sorti en 2014 et est réalisé par Éric Toledano et Olivier Nakache. Ce film parle d’un sans-papiers qui s’appelle Samba. Samba est en danger d’être expulsé de France alors il usurpe différentes identités pour vivre et travailler à Paris. <em>Samba</em> est un drame.</p>
+
+          <p>Ces deux films sont très différents en termes des vies des personnages et des difficultés qu'ils doivent affronter. Mais j’aime tous les deux parce qu'ils décrivent Paris dans deux perspectives complètement différentes et alors ils montrent que Paris est extrêmement diverse et est composé de beaucoup de personnes des milieux différents.</p>
+        </div>
+        <div class="step light-blue" data-step="6">
+          <h2>16h</h2>
+          <p>Mon cours final du jour est l’histoire d’art. Cette semaine, nous étudions l’art du Moyen  ge, et aujourd’hui, nous allons au Musée de Cluny ! Ce s’appelle aussi le Musée national du Moyen  ge, et il y a beaucoup de vieux art. Il y a des peintures, des sculptures, et des tapisseries, et elles sont toutes très vielles – du 12e au 16e siècle.</p>
+
+          <p>J’adore les tapisseries. Il y a une composition de six tapisseries qui s’appelle La Dame à la licorne, et j’aime beaucoup la tapisserie qui s’appelle « mon seul désir ». Cette tapisserie a seules trois couleurs: bleu, blanc, et rouge.</p>
+
+          <p>Pour moi, cette œuvre représente la France et, en particulier, Paris. Au premier plan, il y a deux femmes au centre, et beaucoup d’animaux, comme un singe et un chien, et aussi les animaux fabuleux, comme une licorne. Mais, à l’arrière plan, il y a beaucoup de plantes vraies et d’animaux réels.</p>
+
+          <p>Je pense que ces images représente le luxe et l’extravagance que les gens associent à Paris. Au début, ils voient seulement la beauté de Paris, mais si les gens regardent attentivement, ils verront que Paris est en fait une ville très normale.</p>
+        </div>
+        <div class="step light-blue" data-step="7">
+          <h2>18h30</h2>
+          <p>À dix-huit heures et demie, je vais à Kapunka Panoramas avec mes amis Jean, Claudette, et Madeleine. Ce resto se trouve à 10 Rue Saint-Marc au Passage des Panoramas dans le deuxième arrondissement. Je pense que prendre dîner avec votre famille est très importante et à mon avis, mes amis sont aussi ma famille alors je prends dîner souvent avec eux.</p>
+
+          <p>Kapunka Panoramas est un restaurant thaïlandais. Je choisie ce resto parce qu'il est branché et un des meilleurs restos dans cet arrondissement et aussi parce que la nourriture est très bonne. Le décor de ce restaurant est très chic mais aussi simple. Ils accrochent des lustres au plafond. Les tables sont en bois et leurs surfaces sont très lustres. Les chaises sont aussi en bois. Ils arrangent leurs vaisselles sur chaque table.</p>
+
+          <p>Le prix moyen de ce resto est 20 euros alors c’est un peu cher, mais je pense que le prix en vaut la peine. Au resto, je commande de la salade de papaye. Le plat que j'aime mieux est le Pad Thaï poulet et pour le dessert j’aime la mangue et le riz gluant. Alors si vous voulez aller au Kapunka, je vous recommande d’essayer ces plats.</p>
+        </div>
+        <div class="step light-blue" data-step="8">
+          <h2>21</h2>
+          <p>21h est l’heure où beaucoup de jeunes commencent d’aller aux clubs, aux bars et aux fêtes. À vingt-et-un heures, je vais au Club Rayé. Club Rayé est situé dans le deuxième arrondissement à 26 Rue Dussoubs. Ce lieu est très populaire parmi les jeunes parce que Club Rayé est un bar à cocktails et un bar jazz et piano. Ses cocktails sont très délicieux. Ne vous inquiétez pas ! Club Rayé ne coute pas très cher. Un cocktail là coute vers dix euros.</p>
+
+          <p>Beaucoup de célèbres comme Nina Simone, Cole Porter, Miles Davis, Frank Sinatra, Peggy Lee, et Edith Piaf ont chanté ici. Le code vestimentaire est très chic et un peu officiel. Normalement, quand je vais à ce bar, je porte un costume comme beaucoup d’hommes, et les femmes portent des jupes-mini et des chaussures à talons hauts.</p>
+
+          <p>Ce bar n'accepte pas les personnes qui n’ont pas l'âge légal, donc seules les personnes de dix-huit ans et plus peuvent y entrer. Il y a un dicton que la meilleure façon de rencontrer et de faire connaissance avec un vrai parisien est d'aller à un bar et je crois que c'est vrai. Pendant ma première semaine à Paris, mon guide m'a montré ce bar et c'était vraiment utile. J'ai rencontré beaucoup de mes amis proches de mon arrondissement et de mon université ici et ces gens sont devenus mon groupe de soutien maintenant.</p>
+        </div>
+        <div class="step light-blue" data-step="9">
+          <h2>23h30</h2>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      var container = d3.select('.scroll');
+  		var graphic = container.select('.scroll__graphic');
+  		var photo = graphic.select('.photo');
+  		var text = container.select('.scroll__text');
+  		var step = text.selectAll('.step');
+
+      // instantiate the scrollama
+      const scroller = scrollama();
+
+      // generic window resize listener event
+  		function handleResize() {
+  			// 1. update height of step elements
+        step.style('min-height', '400px');
+
+  			// 2. update width of graphic element
+  			graphic.style('width', '40%');
+
+  			// 3. tell scrollama to update new element dimensions
+  			scroller.resize();
+  		}
+
+      // scrollama event handlers
+  		function handleStepEnter(response) {
+  			// response = { element, direction, index }
+
+        // add color to current step only
+  			step.classed('is-active', function (d, i) {
+  				return i === response.index;
+  			})
+
+  			// update graphic based on step
+        num = response.index + 1;
+        photo.select('img').attr('src', './img/' + num + '.jpg');
+  			// photo.select('h2').text(response.index + 1)
+  		}
+
+      function handleStepExit(response) {
+  			// response = { element, direction, index }
+  		}
+
+  		function handleContainerEnter(response) {
+  			// response = { direction }
+  		}
+
+  		function handleContainerExit(response) {
+  			// response = { direction }
+  		}
+
+      function setupStickyfill() {
+  			d3.selectAll('.sticky').each(function () {
+  				Stickyfill.add(this);
+  			});
+  		}
+
+      function init() {
+  			setupStickyfill();
+
+  			// 1. force a resize on load to ensure proper dimensions are sent to scrollama
+  			handleResize();
+
+  			// 2. setup the scroller passing options
+  			// this will also initialize trigger observations
+  			// 3. bind scrollama event handlers (this can be chained like below)
+  			scroller.setup({
+  				container: '.scroll',
+  				graphic: '.scroll__graphic',
+  				text: '.scroll__text',
+  				step: '.scroll__text .step',
+          offset: 0.5,
+  				debug: false
+  			})
+				.onStepEnter(handleStepEnter)
+				.onContainerEnter(handleContainerEnter)
+				.onContainerExit(handleContainerExit);
+
+  			// setup resize event
+  			window.addEventListener('resize', handleResize);
+  		}
+
+  		// kick things off
+  		init();
+    </script>
   </body>
 </html>

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Playball|Raleway');
+
+body {
+  background-color: #4B8BB2;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Playball', cursive;
+  font-size: 4em;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+img {
+  width: 90%;
+}
+
+.intro {
+  padding: 20px;
+}
+
+.scroll__graphic {
+  position: -webkit-sticky;
+  position: sticky;
+  float: right;
+  top: 20%;
+  width: 40%;
+  text-align: center;
+}
+
+.scroll__text {
+  width: 60%;
+}
+
+.step {
+  min-height: 400px;
+  padding: 20px;
+}
+
+.step.is-active {
+  background-color: #FF8350;
+}
+
+.light-blue {
+  background-color: #7ACCFF;
+}
+
+.blue {
+  background-color: #4B8BB2;
+}
+
+.orange {
+  background-color: #FF8350;
+}
