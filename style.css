@@ -31,6 +31,7 @@ img {
 }
 
 .scroll__graphic {
+  transition: all 500ms ease-in-out;
   background-image: url(./img/1.jpg);
   background-size: cover;
   background-position: center;
@@ -49,16 +50,9 @@ img {
 .step {
   min-height: 400px;
   padding: 20px;
+  background-color: #7ACCFF;
 }
 
 .step.is-active {
   background-color: #FF8350;
-}
-
-.light-blue {
-  background-color: #7ACCFF;
-}
-
-.blue {
-  background-color: #4B8BB2;
 }
