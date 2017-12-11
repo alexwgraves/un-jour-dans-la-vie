@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta property="og:title" content="Un jour dans la vie">
+    <meta property="og:description" content="Un jour dans la vie d'un étudiant américain qui étudie à Paris.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.alex-graves.com/un-jour-dans-la-vie/">
+    <meta property="og:image" content="./img/og.png">
+
     <script src="https://unpkg.com/scrollama@0.6.1/build/scrollama.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.0.3/stickyfill.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -106,6 +112,10 @@
       </div>
     </section>
 
+    <section class="outro">
+      <h1>Merci pour lire !</h1>
+    </section>
+
     <script type="text/javascript">
       var container = d3.select('.scroll');
   		var graphic = container.select('.scroll__graphic');
@@ -131,8 +141,8 @@
 
       // generic window resize listener event
   		function handleResize() {
-  			// 1. update height of step elements
-        step.style('min-height', '400px');
+  			// 1. update width of scroll text element
+        text.style('width', '50%');
 
   			// 2. update width of graphic element
         graphic.style('width', '50%');

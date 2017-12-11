@@ -12,6 +12,7 @@ h1 {
   font-size: 4em;
   color: white;
   margin: 0;
+  margin-top: 10vh;
 }
 
 h2 {
@@ -30,6 +31,13 @@ img {
 
 .intro {
   padding: 20px;
+  height: 40vh;
+}
+
+.outro {
+  padding: 20px;
+  height: 40vh;
+  text-align: center;
 }
 
 .scroll__graphic {
@@ -56,7 +64,7 @@ img {
 }
 
 .step {
-  min-height: 400px;
+  /*min-height: 400px;*/
   padding: 20px;
   background-color: #7ACCFF;
 }
