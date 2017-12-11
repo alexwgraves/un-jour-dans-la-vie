@@ -34,7 +34,7 @@ img {
 
 .scroll__graphic {
   transition: all 500ms ease-in-out;
-  background-image: url(./img/1.jpg);
+  background: linear-gradient(#000, transparent, transparent), url(./img/1.jpg);
   background-size: cover;
   background-position: center;
   position: -webkit-sticky;
@@ -43,6 +43,12 @@ img {
   top: 0;
   height: 100vh;
   width: 50%;
+}
+
+.scroll__graphic p {
+  text-align: center;
+  color: white;
+  font-size: 0.8em;
 }
 
 .scroll__text {
